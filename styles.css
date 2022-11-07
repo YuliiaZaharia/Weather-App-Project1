@@ -1,0 +1,23 @@
+body {
+    padding: 15px;
+    margin: 0;
+  }
+  h1,
+  h2,
+  h3,
+  p,
+  form,
+  div {
+    font-family: "Roboto Slab", serif;
+  }
+  .container {
+    background-color: #aac4ff;
+    border-radius: 23px;
+  }
+  .row {
+    padding: 10px;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+  }
