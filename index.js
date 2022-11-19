@@ -22,6 +22,26 @@ function formatDate(date) {
   
     return `${day} ${hours}:${minutes}`;
   }
+
+  function displayForecast () {
+    let forecastElement = document.querySelector("#forecast");
+
+    let forecastHTML = `<div class="row">`;
+    forecast.forEach() {
+      forecastHTML =
+      forecastHTML +
+      `
+    <div class="col-2">
+    <div class="weather-date">Thu</div>
+    <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt="icon" width="70"/>
+    <div class="forecast-temperature">
+      <span class="max"> 18°</span>
+      <span class="min"> 12°</span>
+      </div>
+      </div>
+      `;
+    }
+  };
   
   function displayWeatherCondition(response) {
     document.querySelector("#city").innerHTML = response.data.name;
