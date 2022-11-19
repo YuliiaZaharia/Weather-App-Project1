@@ -35,11 +35,11 @@ function formatDate(date) {
       forecastHTML +
       `
     <div class="col-2">
-    <div class="weather-date">Thu</div>
-    <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" alt="icon" width="70"/>
+    <div class="weather-date">${forecastDay.dt}</div>
+    <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons${forecastDay.weather[0].icon}/rain-day.png" alt="icon" width="70"/>
     <div class="forecast-temperature">
-      <span class="max"> 18°</span>
-      <span class="min"> 12°</span>
+      <span class="max">${forecastDay.temp.max} °</span>
+      <span class="min">${forecastDay.temp.min} °</span>
       </div>
       </div>
       `;
