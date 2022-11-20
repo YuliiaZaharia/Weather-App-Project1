@@ -1,13 +1,14 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(images/NASA\ Space.png);
 }
 
 h1 {
-  color: #dadde1;
-  font-size: 40px;
-  font-weight: 100;
-  line-height: 27px;
-  margin: 7 px 0 0 10px;
+  color: #D4D7DD;
+  font-size: 42px;
+  font-weight: 200;
+  line-height: 30px;
+  margin: 7px 0 0 10px;
 }
 
 ul {
@@ -16,18 +17,14 @@ ul {
 }
 
 li {
+  color: #D4D7DD;
   display: block;
-  color: #dadde1;
-  list-style: none;
-  margin: 0 0 0 10px;
-  padding: 0;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 100;
-  line-height: 4;
-}
-
-li:first-letter {
-  text-transform: capitalize;
+  height: 19px;
+  line-height: 3;
+  list-style: none;
+  margin: 0 0 0 10x;
 }
 
 a {
@@ -35,32 +32,34 @@ a {
 }
 
 .weather-app {
-  border: 1px solid #d6d6d6;
-  padding: 15px;
+  border: 2px solid #FFFAE7;
+  padding: 20px;
   margin: 20px auto;
-  border-radius: 15px;
+  border-radius: 10px;
   max-width: 600px;
-  background-position: 150%;
+  background-position: 150% center;
 }
 
-.heading {
+.header {
   margin: 0 0 25px 0;
 }
 
 .col-2 {
   position: relative;
-  margin-left: -15px;
+  margin-left: -14px;
 }
+
 .col-4 {
   text-align: center;
 }
+
 .icon {
-  margin: 5px 0 0 0;
+  margin: 15px 0 0 0;
   vertical-align: top;
 }
 
 .temperature {
-  color: #d6d6d6;
+  color: #D4D7DD;
   font-size: 64px;
   font-weight: 400;
 }
@@ -68,26 +67,36 @@ a {
 .units {
   position: relative;
   top: -36px;
+  color: #D4D7DD;
 }
+
 .weather-cond {
-  font-size: 17px;
+  color: #D4D7DD;
+  font-size: 18px;
   height: 20px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
 }
+
 .footer {
   margin-top: 20px;
 }
+
 .weekdays {
   margin-left: 5px;
-  color: #d6d6d6;
+  color: #D4D7DD;
   font-size: 16px;
 }
+
 .link {
   text-align: center;
   font-size: 13px;
+  color: #D4D7DD;
 }
 
 .col-6 .active {
-  color: #d6d6d6;
+  color: #D4D7DD;
   cursor: default;
 }
 
@@ -99,14 +108,17 @@ a {
   padding: 15px 5px 15px 30px;
   border-radius: 10px;
 }
+
 .forecast-date {
-  font-size: 15px;
-  color: #d6d6d6;
+  font-size: 20px;
+  color: #1f3a93;
 }
+
 .forecast-temperatures {
-  font-size: 13px;
-  color: #d6d6d6;
+  font-size: 16px;
+  color: #1f3a93;;
 }
+
 .forecast-night {
   opacity: 0.5;
 }
